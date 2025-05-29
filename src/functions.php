@@ -25,8 +25,8 @@ function sendVerificationEmail(string $email, string $code, bool $isUnsubscribe 
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'umangjajal@gmail.com';
-        $mail->Password   = 'gtnf modx ktzt pngv';
+        $mail->Username   = 'Your Gmail id';
+        $mail->Password   = 'Your App Passwrod';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
